@@ -172,22 +172,85 @@
 .double-image{
     display: flex;
     flex-direction: column;
+    gap: 24px;
     
 
 }
 .double-image img{
     max-height: 201px;
     max-width: 367px;
-    margin-bottom: 24px;
     border-radius: 22px;
 }
 .single-image img{
     max-width: 753px;
     max-height: 423px;
-    margin-left: 21px;
+    
     border-radius: 22px;
     
 }
+.offer-one .overlay {
+    
+  position: absolute;
+  
+  inset: 0;
+  background: linear-gradient(to top, rgba(16, 15, 15, 0.6), transparent 100%);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
+.offer-two .overlay {
+    
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(16, 15, 15, 0.6), transparent 100%);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
+.third-offer .overlay {
+    
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(16, 15, 15, 0.6), transparent 100%);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
 .latest-image-container{
     display: flex;
+    gap: 24px;
+}
+
+
+.offer-one{
+    position: relative;
+  display: inline-block;
+}
+
+.offer-two{
+    position: relative;
+  display: inline-block;
+
+}
+.third-offer{
+    position: relative;
+  display: inline-block;
+}
+
+.offer-one img .offer-two img{
+    display: block;
+ max-width: 753px;
+ max-height: 423px;
 }
