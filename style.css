@@ -1,0 +1,154 @@
+.display-flex{
+    display: flex;
+}
+.body{
+    margin: 20px 100px;
+}
+.orange-color{
+    color:#E95A08 ;
+}
+.light-gray{
+    color: #838282;
+}
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+.home-bar{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 82px;
+    width: 135px;
+}
+.nav-container{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.list-item{
+    list-style: none;
+   
+}
+.list-item a{
+    text-decoration: none;
+
+}
+.list{
+     gap: 48px;
+}
+.cart-icon{
+    height: 24px;
+    width: 24px;
+
+    
+}
+
+.cart{
+    margin-left: 48px;
+}
+.banner-tittle{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.banner-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-discription{
+    margin-top: -35px;
+    
+    font-size: 18;
+}
+
+.plant-header{
+    text-align: center;
+    margin-top: 70px;
+}
+.plant-desciption{
+    font-size: 18;
+}
+.plant-heading{
+    font-size: 60;
+}
+
+.btn{
+   width: auto;
+   background-color: #E95A08;
+   color: white;
+   border: none;
+   padding: 20px 50px;
+   font-size: 16px;
+   font-weight: 600;
+   width: 240px;
+    
+}
+.card{
+   
+    align-items: center;
+    text-align: center;
+     
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    align-items: stretch;
+    
+}
+.img{
+    display: block;
+  width: 100%;
+  height: auto;         
+  object-fit: cover;    
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.flower-name{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.plant-lover{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 210px;
+}
+.plant-li-items{
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    
+}
+.plant-lover-li{
+   
+}
+.plant-lover-image{
+    max-width: 540px;
+    max-height: 597px;
+}
+.plant-lover-heading{
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
