@@ -44,6 +44,7 @@
 }
 .list-item a{
     text-decoration: none;
+    color: #838282;
 
 }
 .list{
@@ -135,8 +136,8 @@
     height: 286px;
     width: 286px;
     position: relative;
-    top: -36.5rem;
-    left: 17.3rem;
+    top: -39.5rem;
+    left: 19.3rem;
    
     animation: spin 4s linear infinite;
   transform-origin: center center; 
@@ -374,6 +375,7 @@
 .footer-social img {
   width: 30px;
   height: 30px;
+  
 }
 
 
