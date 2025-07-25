@@ -3,6 +3,7 @@
 }
 .body{
     margin: 20px 100px;
+    background-color: #F5F8FF;
 }
 .orange-color{
     color:#E95A08 ;
@@ -285,6 +286,9 @@
     align-items: center;
     justify-content: center;
     background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 480px;
    
@@ -308,4 +312,135 @@
     font-size: 45px;
     font-weight: bold;
     color: white;
+}
+
+.footer {
+  background-color: #f8fafd;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+}
+
+.footer-links a:hover {
+  color: #f06543;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .banner-container, .plant-lover, .latest-deal, .latest-image-container, .footer-container, 
+    .footer-links{
+        flex-direction: column;
+    }
+    .list, .badge{
+        visibility: hidden;
+    }
+    .card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .single-image img, .double-image img{
+        height: 184px;
+        width: 361px;
+    }
+    .subscribe{
+        width: 393px;
+        height: 276px;
+    }
+    .input{
+        width: auto;
+        background-size: auto;
+    }
+    .cart{
+      margin-left: auto;
+    }
+    #email{
+    height: auto;
+    width: auto;
+    padding: 5px;
+    border: none;
+    }
+    .last-button{
+      padding: auto;
+    }
+    
+
+    
+  .offer-one .overlay,
+  .offer-two .overlay{
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 184px;
+    width: 361px;
+    margin-left: 20px ;
+    
+    overflow: hidden;
+
+  }
+  .third-offer .overlay {
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 184px;
+    width: 361px;
+    
+    overflow: hidden;
+  }
+  .body{
+    margin: auto;
+  }
+    
 }
