@@ -136,8 +136,8 @@
     height: 286px;
     width: 286px;
     position: relative;
-    top: -40.5rem;
-    left: 20.3rem;
+    top: -42.5rem;
+    left: 21.6rem;
    
     animation: spin 4s linear infinite;
   transform-origin: center center; 
@@ -384,6 +384,9 @@
     .footer-links{
         flex-direction: column;
     }
+     html, body {
+    overflow-x: hidden;
+  }
     .list, .badge{
         visibility: hidden;
     }
@@ -391,20 +394,28 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     }
+     .card-container img{
+      width: 100%;
+      height: auto;
+    }
+    .btn{
+      height: auto;
+      width: 100%;
+    }
     .single-image img, .double-image img{
-        height: 184px;
-        width: 361px;
+        height: auto;
+        width: 100%;
     }
     .subscribe{
-        width: 393px;
-        height: 276px;
+        width: 100%;
+        height: auto;
     }
     .input{
         width: auto;
         background-size: auto;
     }
     .cart{
-      margin-left: auto;
+      padding-left: 0%;
     }
     #email{
     height: auto;
@@ -420,12 +431,11 @@
     
   .offer-one .overlay,
   .offer-two .overlay{
+    position: ;
     padding: auto;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    height: 184px;
-    width: 361px;
+    height: auto;
+    width: 100%;
     margin-left: 20px ;
     
     overflow: hidden;
@@ -436,8 +446,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 184px;
-    width: 361px;
+    height: auto;
+    width: 100%;
     
     overflow: hidden;
   }
